@@ -1,0 +1,227 @@
+React Portfolio Project Documentation
+Project Overview
+
+Project Name: My Personal Portfolio
+Description: A responsive, modern, and interactive portfolio website built with React to showcase skills, projects, experience, and contact information.
+Purpose: To present professional information in a visually appealing way and allow potential employers or clients to explore your work.
+
+Tech Stack
+
+Frontend: React.js, React Router
+
+Styling: Tailwind CSS (or CSS Modules)
+
+State Management: React Context API or useState/useReducer where needed
+
+Animation/Interaction: Framer Motion or simple CSS animations
+
+Forms: Email contact form using EmailJS or similar service
+
+Deployment: Vercel, Netlify, or GitHub Pages
+
+Pages / Sections
+1. Home / Landing Page
+
+Full-screen hero section with:
+
+Your name and profession (e.g., “Full-Stack Developer”)
+
+A short tagline or “About Me” sentence
+
+Call-to-action buttons: “View Projects” / “Contact Me”
+
+Background can be an image, gradient, or subtle animation
+
+2. About Me
+
+Short professional description
+
+Skills list (technical and soft skills)
+
+Optional profile photo
+
+3. Skills
+
+Display skills with icons and/or progress bars
+
+Categorize skills into:
+
+Frontend (React, CSS, HTML, JS, etc.)
+
+Backend (Node.js, Express, Databases)
+
+Tools (Git, Docker, etc.)
+
+4. Projects
+
+Grid or card layout showcasing your projects
+
+Each project card should include:
+
+Project title
+
+Short description
+
+Technologies used
+
+Buttons: “Live Demo” / “GitHub Repository”
+
+Optional: Filter by category (Frontend, Full-Stack, etc.)
+
+5. Experience / Education
+
+Timeline or card layout
+
+Include company/school, role, duration, and key achievements
+
+6. Contact
+
+Contact form with fields: Name, Email, Message
+
+Connect with EmailJS or backend endpoint for submissions
+
+Optional: Links to LinkedIn, GitHub, Twitter, or other socials
+
+7. Footer
+
+Simple footer with copyright
+
+Links to social media profiles
+
+Features
+
+Fully responsive (desktop, tablet, mobile)
+
+Smooth scrolling and navigation
+
+Light/Dark theme toggle (optional)
+
+Animations for elements on scroll (Framer Motion or AOS)
+
+SEO optimized: meta tags for description, title, social sharing
+
+Component Structure (Example)
+src/
+├─ components/
+│  ├─ Navbar.jsx
+│  ├─ Hero.jsx
+│  ├─ About.jsx
+│  ├─ Skills.jsx
+│  ├─ Projects.jsx
+│  ├─ Experience.jsx
+│  ├─ Contact.jsx
+│  └─ Footer.jsx
+├─ pages/
+│  ├─ Home.jsx
+│  └─ NotFound.jsx
+├─ assets/
+│  ├─ images/
+│  └─ icons/
+├─ App.jsx
+├─ index.jsx
+└─ styles/
+   └─ tailwind.css
+
+Instructions for Cursor
+
+Build a React app with the above structure.
+
+Use Tailwind CSS for styling.
+
+Make components reusable and modular.
+
+Add navigation with React Router (for single-page scroll or multi-page).
+
+Add animations where appropriate.
+
+Ensure mobile responsiveness.
+
+Connect contact form to EmailJS or a mock backend.
+
+Add placeholder content where necessary, and include instructions to replace it later.
+
+Optional Enhancements
+
+Light/Dark theme toggle
+
+Filterable project gallery
+
+Animated skill bars or charts
+
+Testimonials section
+
+Blog or Articles section
+
+If you want, I can also make a ready-to-copy JSON prompt for Cursor so you can just paste it in and it starts building your React portfolio automatically, including folder structure, components, and placeholder data.
+
+Do you want me to do that?
+
+
+
+
+
+
+and this is my CV :-
+SUMMARY  
+Amr Foqha 
++9720594595311 | Palestine | amr.mofeed.foqha9@gmail.com | LinkedIn | GitHub 
+Computer Engineering graduate and Full-Stack Developer with hands-on experience building real-world web applications. 
+Experienced in both front-end and back-end development, with a strong focus on problem-solving and collaboration. 
+Contributed to AI-powered projects such as CareerPilot and Cookly, delivering practical solutions to real-world problems. 
+Highly motivated, adaptable, and eager to grow within a professional team environment. 
+TECHNICAL SKILLS 
+Languages: Java, Python, JavaScript , HTML, CSS. 
+Tools: Trello, Git, GitHub, VS Code,AntiGravity, SpringTooI (STS), Postman (API Testing).   
+Database: MySQL,Sqlite,MongoDB.  
+Frameworks/Libraries: Django, Flask, Jinja, Spring Boot, React,Express,Node.js, Tailwind, AWS (EC2). 
+TECHNICAL PROJECTS 
+Edux — Collaborative Academic Resource Platform | Full-Stack Developer| Github Link    
+● Built a web platform that helps university students share and access academic resources easily. 
+● Solved real-world problems related to resource accessibility and student collaboration. 
+● Designed features that encourage cooperation through real-time communication. 
+● Delivered the project using Agile methodology and modern web technologies. 
+Cookly — Smart Recipe Recommendation Platform | Full-Stack Developer| Github Link    
+● Developed an ingredient-based recipe matching system using a large MySQL database. 
+2025 
+2025 
+● Implemented AI-assisted recipe generation and enhancement, producing structured JSON data (title, ingredients, 
+steps, calories, categories). 
+● Built RESTful APIs with Spring Boot to manage recipes, ingredients, ratings, favorites, and categories. 
+● Designed and implemented a normalized MySQL database schema for core entities and user interactions. 
+● Created a dynamic front-end using JSP, JavaScript, and Tailwind CSS to render recipe cards, ratings, and detailed 
+views. 
+● Implemented session-based features including temporary ingredient lists and downloadable shopping lists. 
+CareerPilot — AI-Based Career Guidance System | Full-Stack Developer| Github Link    
+2025 
+● Built an AI-driven web platform that analyzes CVs, skills, and quiz responses to deliver personalized career and 
+job recommendations. 
+● Developed a Django backend with MySQL, integrating AI services, user data management, and secure 
+authentication using Django sessions and Bcrypt. 
+● Designed an interactive analytics dashboard using Chart.js (Radar & Doughnut charts) to visualize career insights. 
+● Built a responsive, mobile-friendly front-end using HTML5, Tailwind CSS, and JavaScript. 
+Friend Motors | Web Developer                                                                                        
+is a website for selling and exchanging cars and vehicles.  
+● Developed a responsive frontend using HTML, CSS, JavaScript, and Bootstrap. 
+● Implemented backend functionality using PHP for vehicle listings and user interactions. 
+● Worked on full website flow including browsing, posting, and exchanging vehicles. 
+EDUCATION 
+Full Stack Developer Bootcamp | Axsos Academy, Palestine-Ramallah   2025 
+● Immersive training program in Python, Java, and MERN Web technologies which includes 16 weeks Boot 
+camp, +1200 coding hrs., +100 hrs. of algorithms and data structures, +100 hrs. Of group activities, +410 
+lab/office hrs., and +250 hrs. of 3 complete projects. All stacks include group activities, leet-code, and 
+Hacker Rank. 
+An-Najah National University | Bachelor of Computer Engineering | Nablus, Palestine                              
+● Strong foundation in software engineering and computer systems. 
+●  Relevant Coursework: 
+● Algorithms & Data Structures 
+● Object-Oriented Programming (OOP) 
+● Databases & SQL 
+● Web Development 
+● Operating Systems 
+● Computer Network            
+COURSES  
+UDEMY | The Ultimate React Course 2025: React, Next.js, Redux & Tailwind (4 month)           
+● Build single-page applications with React Router. 
+2019 - 2024                    
+2025 
+● Build real-world app features: authentication, data sorting, filtering and pagination, dark mode, charts. 
