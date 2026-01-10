@@ -1,22 +1,26 @@
 name: Deploy React Portfolio
 
+# Trigger when pushing to main branch
 on:
   push:
     branches:
-      - main # Trigger on pushes to main branch
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write # needed for pushing to gh‑pages
+
     steps:
       # 1. Checkout the repo
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 2. Setup Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
@@ -24,16 +28,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Build the React app
+      # 4. Build React app
       - name: Build React app
         run: npm run build
 
-      # 5. Deploy to GitHub Pages
+      # 5. Deploy to GitHub Pages with peaceiris v4
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          # Optional: target branch for gh-pages
-          # default is 'gh-pages'
-          # publish_branch: gh-pages
