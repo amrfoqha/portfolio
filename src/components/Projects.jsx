@@ -6,6 +6,14 @@ const Projects = () => {
   // Data from CV
   const projects = [
     {
+      title: "FinTrack",
+      description:
+        "Web-based accounting and invoice management system designed for small businesses to track sales, customers, payments, and checks with accurate balance control.",
+      tags: ["MERN Stack", "Accounting", "Business App", "MongoDB"],
+      github: "https://github.com/amrfoqha/fintrack",
+      demo: "#",
+    },
+    {
       title: "Edux",
       description:
         "Collaborative Academic Resource Platform helping students share and access academic resources easily.",
